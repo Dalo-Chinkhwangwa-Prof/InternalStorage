@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/dimen_4dp"
+    android:background="@drawable/button_background">
+
+    <ImageView
+        android:id="@+id/gender_imageview"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:elevation="@dimen/dimen_2dp"
+        android:src="@drawable/ic_male"
+        app:layout_constraintBottom_toBottomOf="@id/image_background"
+        app:layout_constraintEnd_toEndOf="@id/image_background"
+        app:layout_constraintStart_toStartOf="@id/image_background"
+        app:layout_constraintTop_toTopOf="@id/image_background" />
+
+    <ImageView
+        android:id="@+id/image_background"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_margin="@dimen/dimen_16dp"
+        android:src="@drawable/rounded_image_bg"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/name_textview"
+        style="@style/AppInfo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen_16dp"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/image_background"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Persons Name" />
+
+    <TextView
+        android:id="@+id/date_textview"
+        style="@style/AppInfo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen_16dp"
+        android:textColor="@color/colorWhite"
+        android:textSize="18sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/image_background"
+        app:layout_constraintTop_toBottomOf="@id/name_textview"
+        tools:text="Persons Name" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

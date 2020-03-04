@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">BirthdayApp</string>
+    <string name="add_birthday_text">Add Birthday</string>
+    <string name="female_text">Female</string>
+    <string name="male_text">Male</string>
+    <string name="name_text">Name</string>
+    <string name="birthday_text">Birthday</string>
+    <string name="phone_text">Phone</string>
+    <string name="save_birthday_text">Save Birthday</string>
+</resources>
